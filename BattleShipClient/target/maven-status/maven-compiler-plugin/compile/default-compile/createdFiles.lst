@@ -1,0 +1,12 @@
+org\example\Battleship.class
+org\example\GuiClient.class
+org\example\Coordinate.class
+org\example\ClickableCell.class
+org\example\Cell.class
+org\example\Message.class
+org\example\AIOpponent.class
+org\example\AIOpponent$Mode.class
+org\example\ClientData.class
+org\example\Client.class
+org\example\Game.class
+org\example\Client$1.class

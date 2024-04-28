@@ -1,0 +1,140 @@
+/* Set the background color of the application */
+.root {
+    -fx-background-color: #1E90FF;
+    -fx-font-family: Monospaced;
+}
+
+/* Style for the game board (GridPane) */
+.GridPane {
+    -fx-background-color: #87CEFA;
+    -fx-grid-lines-visible: true;
+    -fx-padding: 20px;
+}
+
+/* Style for the cells in the game board */
+.GridPane .cell {
+    -fx-background-color: #B0C4DE;
+    -fx-border-color: #191970;
+    -fx-border-width: 1px;
+}
+
+/* Style for the buttons */
+.Button {
+    -fx-background-color: #4682B4;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 14px;
+    -fx-padding: 10px;
+}
+
+/* Style for the labels */
+.Label {
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 16px;
+}
+
+#createOpponentScene {
+    -fx-background-color: #1E90FF;
+}
+
+.title-label {
+    -fx-font-size: 24px;
+    -fx-text-fill: #FFFFFF;
+}
+
+.username-label {
+    -fx-font-size: 18px;
+    -fx-text-fill: #FFFFFF;
+}
+
+.game-name-text-field {
+    -fx-font-size: 16px;
+    -fx-pref-width: 200px; /* Preferred width */
+    -fx-max-width: 200px; /* Maximum width */
+    -fx-pref-height: 30px; /* Preferred height */
+    -fx-border-radius: 10px; /* Border radius */
+    -fx-prompt-text-fill: gray; /* Prompt text color */
+}
+
+.opponent-labels {
+    -fx-font-size: 15px;
+    -fx-text-fill: #FFFFFF;
+}
+
+#opponentScene {
+    -fx-background-image: url('styleImages/shipImages/battleShip/shipBackground.jpg');
+    -fx-background-repeat: no-repeat;
+    /*-fx-background-size: cover;*/
+}
+
+#usernameScene {
+    -fx-background-image: url('styleImages/shipImages/userNameBG.jpg');
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    /*-fx-background-size: cover;*/
+}
+
+#usernameScene .username-label {
+    -fx-font-size: 18px;
+    -fx-text-fill: #FFFFFF;
+}
+
+#usernameScene .username-text-field {
+    -fx-background-color: transparent;
+    -fx-border-color: #FFFFFF;
+}
+
+#usernameScene .username-button {
+    -fx-background-color: transparent;
+    -fx-border-color: #FFFFFF;
+    -fx-text-fill: #FFFFFF;
+}
+
+#boardScene {
+    -fx-background-image: url('styleImages/shipImages/boardSceneBG.jpg');
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+
+    /*-fx-background-size: cover;*/
+}
+
+#boardScene .ready-button {
+    -fx-background-color: transparent;
+    -fx-border-color: #FFFFFF;
+    -fx-text-fill: #FFFFFF;
+    -fx-pref-width: 200px;
+    -fx-pref-height: 50px;
+}
+
+#boardScene .username-label {
+    -fx-font-size: 18px;
+    -fx-text-fill: #FFFFFF;
+}
+
+#boardScene .title-label {
+    -fx-font-size: 15px;
+    -fx-text-fill: #FFFFFF;
+}
+
+#gameplayScene {
+    -fx-background-image: url('styleImages/shipImages/gamePlayBG.jpg');
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+
+    /*-fx-background-size: cover;*/
+}
+
+#aiGameplayScene {
+    -fx-background-image: url('styleImages/shipImages/gamePlayBG.jpg');
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+
+    /*-fx-background-size: cover;*/
+}
+
+#aiBoardScene {
+    -fx-background-image: url('styleImages/shipImages/boardSceneBG.jpg');
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+
+    /*-fx-background-size: cover;*/
+}
